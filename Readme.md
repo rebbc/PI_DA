@@ -16,11 +16,11 @@
 
 <div>
 <h2>EDA</h2>
-<p>Realicé un análisis de 10 datasets que rondan entre los años 2014 y 2022: 'banda-ancha-provincia.csv', 'banda-ancha-trimestral.csv', 'conectividad-localidad.csv', 'internet-penetracion.csv', 'mbps-provincia.csv', 'rangos-velocidad-prov.csv', 'tecnologia-localidad.csv', 'tecnologia-pronvicia.csv', 'velocidad-localidad.csv', 'velocidad-provincia.csv'. Se pueden visualizar la carpeta [datasets](https://github.com/rebbc/PI_DA/tree/main/datasets) </p>
+<p>Realicé un análisis de 10 datasets que rondan entre los años 2014 y 2022: 'banda-ancha-provincia.csv', 'banda-ancha-trimestral.csv', 'conectividad-localidad.csv', 'internet-penetracion.csv', 'mbps-provincia.csv', 'rangos-velocidad-prov.csv', 'tecnologia-localidad.csv', 'tecnologia-pronvicia.csv', 'velocidad-localidad.csv', 'velocidad-provincia.csv'. Se pueden visualizar la carpeta 'datasets' </p>
 <p>Utilicé las librerías Pandas para poder explorar las tablas y, MatPlotLib y Seaborn para realizar gráficos.</p>
 <p>Me encontré con columnas vacías y filas con datos nulos y outliers, que decidí eliminar. También modifiqué tipos de datos para que puedan ser tomados en cuenta en el análisis. En otros casos, solo tomé columnas específicas para representar.</p>
 <p>Profundicé en el acceso a internet por provincia, para ver su evolución en el tiempo y luego poder trabajar con el KPI propuesto.</p>
-<p>Investigué sobre el uso de tecnologías, ya que, desde la última década se está implementando la Fibra Óptica, que ofrece a los usuarios un servicio más rápido. Por lo tanto, los datos sobre la velocidad nos pueden brindar información sobre tipos de conexión antiguas.</p>
+<p>Investigué sobre el uso de tecnologías, ya que, desde la última década se está implementando la Fibra Óptica, que ofrece a los usuarios un servicio más rápido. Por lo tanto, los datos obtenidos de ENACOM sobre la velocidad nos pueden brindar información sobre tipos de conexión antiguas.</p>
 <p>Para la creación del segundo KPI, analicé y utilicé el dataset 'denuncias-reclamos-2023.csv', también obtenido de la página de ENACOM. Este archivo nos provee la cantidad de reclamos por tipo, dividido por mes.</p>
 <p>Para la creación del tercer KPI, analicé y utilicé el dataset 'conexion-fibra-optica.csv', obtenido de la página ARSAT (Empresa Argentina de Soluciones Satelitales S.A.). Este archivo nos muestra la cantidad de puntos de conexión o nodos de la fibra óptica.</p>
 
@@ -58,10 +58,11 @@ Donde:
 
 <p>Ejemplo de uso:</p>
 <b>KPI = ((720-743)/743)*100 = -3%</b>
-<p>Este KPI nos permitiría implementar mejoras en el servicio, ya sea para detectar fallas técnicas masivas y para prevenir la pérdida de clientes.</p>
+<br><br>
+<p>Este KPI nos permitiría implementar mejoras en el servicio, ya sea para <b>detectar fallas técnicas masivas y para prevenir la pérdida de clientes</b>.</p>
 </div>
 
-<p>3- Como podemos ver en la sección "Tecnologías por Provincia", entre 2020 y 2021, el acceso a la fibra óptica aumentó un 22%. En este KPI, vamos a buscar aproximarnos a un incremento de puntos de conexión del 20% anual para cada provincia. Los puntos de conexión de fibra óptica son parte de la infraestructura de red, y desde estos puntos, la conexión se distribuye a través de tecnologías adicionales para llegar a los hogares individuales.</p>
+<p>3- Como podemos ver en la sección "Tecnologías por Provincia", entre 2020 y 2021, el acceso a la fibra óptica aumentó un 22%. En este KPI, vamos a buscar aproximarnos a un incremento de puntos de conexión del 20% anual para cada provincia. Los puntos de conexión de fibra óptica son parte de la infraestructura de red, y desde estos puntos, la conexión se distribuye a través de tecnologías adicionales para llegar a los hogares.</p>
 
 <p>La fórmula del KPI es: ((Puntos2023 - Puntos2022) / Puntos2022) * 100</p>
 Donde:
@@ -73,7 +74,7 @@ Donde:
 <p>Si bien no tenemos aún los datos del 2023, este KPI nos propone conseguir o superar los objetivos para cada provincia.</p>
 
 <h2>CONCLUSIONES</h2>
-<p>La conectividad a Internet es un factor indispensable para el crecimiento económico y la igualdad de oportunidades para todos los habitantes. Para ello, necesitamos seguir ampliando la infraestrutura y lograr una mejora en nuestros servicios. En relación a los datos analizados, se logró incrementar el acceso a Internet a nivel nacional en los últimos años, y desde la aparición de la Fibra Óptica, muchas tecnologías quedaron en desuso, ya que, la fibra puede brindarnos conexiones más estables y rápidas.</p>
+<p>La conectividad a Internet es un factor indispensable para el <b>crecimiento económico y la igualdad de oportunidades</b> para todos los habitantes. Para ello, necesitamos seguir ampliando la infraestrutura y lograr una mejora en nuestros servicios. En relación a los datos analizados, se logró incrementar el acceso a Internet a nivel nacional en los últimos años, y desde la aparición de la Fibra Óptica, muchas tecnologías quedaron en desuso, ya que, la fibra puede brindarnos conexiones más estables y rápidas.</p>
 <p>Sabemos que la detección de problemas es un punto de partida para encontrar oportunidades de mejora, por eso, incluí la sección de Reclamos para poder localizar y analizar aquellas provincias donde hay más inconvenientes y poder resolver cuestiones de infraestructura, ya sea la necesidad de expansión de accesos a las residencias o el mantenimiento de los existentes.</p>
 
 <h3>Bibliografía:</h3>
