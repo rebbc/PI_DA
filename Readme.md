@@ -16,7 +16,7 @@
 
 <div>
 <h2>EDA</h2>
-<p>Realicé un análisis de 10 datasets que rondan entre los años 2014 y 2022: 'banda-ancha-provincia.csv', 'banda-ancha-trimestral.csv', 'conectividad-localidad.csv', 'internet-penetracion.csv', 'mbps-provincia.csv', 'rangos-velocidad-prov.csv', 'tecnologia-localidad.csv', 'tecnologia-pronvicia.csv', 'velocidad-localidad.csv', 'velocidad-provincia.csv'. Se pueden visualizar la carpeta 'datasets' </p>
+<p>Realicé un análisis de 10 datasets que rondan entre los años 2014 y 2022: 'banda-ancha-provincia.csv', 'banda-ancha-trimestral.csv', 'conectividad-localidad.csv', 'internet-penetracion.csv', 'mbps-provincia.csv', 'rangos-velocidad-prov.csv', 'tecnologia-localidad.csv', 'tecnologia-pronvicia.csv', 'velocidad-localidad.csv', 'velocidad-provincia.csv'. Se pueden visualizar la carpeta 'datasets'. </p>
 <p>Utilicé las librerías Pandas para poder explorar las tablas y, MatPlotLib y Seaborn para realizar gráficos.</p>
 <p>Me encontré con columnas vacías y filas con datos nulos y outliers, que decidí eliminar. También modifiqué tipos de datos para que puedan ser tomados en cuenta en el análisis. En otros casos, solo tomé columnas específicas para representar.</p>
 <p>Profundicé en el acceso a internet por provincia, para ver su evolución en el tiempo y luego poder trabajar con el KPI propuesto.</p>
@@ -70,6 +70,9 @@ Donde:
 - "Puntos 2022" es la suma a nivel nacional de los puntos de conexión para el año analizado.
 - "Puntos 2023" es la suma a nivel nacional de los puntos de conexión esperados para el año siguiente.
 
+<p>Ejemplo de uso:</p>
+<b>KPI = ((1342-1118)/1118)*100 = 20%</b>
+<br><br>
 
 <p>Si bien no tenemos aún los datos del 2023, este KPI nos propone conseguir o superar los objetivos para cada provincia.</p>
 
